@@ -81,3 +81,35 @@ a {
   align-items: center;
   justify-content: center;
 }
+
+.information-container {
+  text-align: center;
+  padding: 50px 300px 100px;
+}
+
+.information-title {
+  font-size: 36px;
+  color: #1F2937;
+  margin: 0;
+}
+
+.cards-container {
+  display: flex;
+  gap: 40px;
+  margin-top: 40px;
+  justify-content: center;
+}
+
+.card-image {
+  border: #3882F6 3px solid;
+  border-radius: 16px;
+  height: 160px;
+}
+
+.information-card {
+  width: 160px;
+}
+
+.card-text {
+  margin-top: 8px;
+}
