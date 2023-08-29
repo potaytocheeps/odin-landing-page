@@ -113,3 +113,26 @@ a {
 .card-text {
   margin-top: 8px;
 }
+
+.quote-section-container {
+  background-color: #E5E7EB;
+  padding: 100px 250px;
+  display: flex;
+  flex-direction: column;
+}
+
+.quote-text {
+  font-size: 36px;
+  font-weight: lighter;
+  font-style: italic;
+  color: #1F2937;
+  margin-left: 130px;
+  margin-bottom: 16px;
+}
+
+.quote-source {
+  margin: 0;
+  align-self: flex-end;
+  font-size: 24px;
+  margin-right: 60px;
+}
