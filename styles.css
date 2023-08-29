@@ -40,6 +40,10 @@ a {
   font-size: 18px;
 }
 
+p {
+  margin: 0;
+}
+
 .hero-section {
   display: flex;
   padding: 100px 0;
@@ -64,7 +68,7 @@ a {
   width: 450px;
 }
 
-.button {
+button {
   background-color: #3882F6;
   border: none;
   border-radius: 8px;
@@ -135,4 +139,38 @@ a {
   align-self: flex-end;
   font-size: 24px;
   margin-right: 60px;
+}
+
+.call-to-action-section-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 100px 230px;
+}
+
+.call-to-action {
+  background-color: #3882F6;
+  flex: 1;
+  border-radius: 8px;
+  padding: 50px 120px;
+  color: #F9FAF8;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cta-title {
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 3px;
+}
+
+.cta-text {
+  color: #E5E7EB;
+  font-size: 18px;
+}
+
+.cta-button {
+  border: #F9FAF8 2px solid;
+  margin: 0;
 }
