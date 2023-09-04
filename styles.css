@@ -8,10 +8,20 @@ body {
   padding: 0;
 }
 
-.header-hero-container {
+.header-hero-container,
+.information-container,
+.quote-container,
+.call-to-action-container {
+  max-width: 80rem;
+  flex: auto;
+}
+
+.header-hero-section {
   background-color: #1F2937;
   color: #F9FAF8;
   padding: 0 200px;
+  display: flex;
+  justify-content: center;
 }
 
 .header {
@@ -86,9 +96,11 @@ button {
   justify-content: center;
 }
 
-.information-container {
+.information-section {
   text-align: center;
   padding: 50px 300px 100px;
+  display: flex;
+  justify-content: center;
 }
 
 .information-title {
@@ -101,7 +113,7 @@ button {
   display: flex;
   gap: 40px;
   margin-top: 40px;
-  justify-content: center;
+  justify-content: space-around;
 }
 
 .card-image {
@@ -118,9 +130,14 @@ button {
   margin-top: 8px;
 }
 
-.quote-section-container {
+.quote-section {
   background-color: #E5E7EB;
   padding: 100px 250px;
+  display: flex;
+  justify-content: center;
+}
+
+.quote-container {
   display: flex;
   flex-direction: column;
 }
@@ -141,7 +158,7 @@ button {
   margin-right: 60px;
 }
 
-.call-to-action-section-container {
+.call-to-action-section {
   display: flex;
   justify-content: center;
   align-items: center;
