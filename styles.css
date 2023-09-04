@@ -60,9 +60,8 @@ p {
   gap: 10px;
 }
 
-.left-hero-content,
-.right-hero-content {
-  flex: 1 1 0;
+.left-hero-content {
+  flex: 2 1 0;
 }
 
 .hero-title {
@@ -90,10 +89,14 @@ button {
 }
 
 .right-hero-content {
-  background-color: #6D747D;
   display: flex;
-  align-items: center;
   justify-content: center;
+  flex: 1 1 0;
+}
+
+.right-hero-content img {
+  height: 250px;
+  width: auto;
 }
 
 .information-section {
