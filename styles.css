@@ -196,6 +196,12 @@ button {
   font-size: 18px;
 }
 
+.cta-message {
+  color: #E5E7EB;
+  font-size: 14px;
+  margin-top: 2px;
+}
+
 .cta-button {
   border: #F9FAF8 2px solid;
   margin: 0;
@@ -207,4 +213,8 @@ button {
   padding: 40px;
   text-align: center;
   font-size: 18px;
+}
+
+.footer a {
+  text-decoration: underline;
 }
