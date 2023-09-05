@@ -8,7 +8,8 @@ body {
   padding: 0;
 }
 
-.header-hero-container,
+.header,
+.hero-container,
 .information-container,
 .quote-container,
 .call-to-action-container {
@@ -16,11 +17,14 @@ body {
   flex: auto;
 }
 
-.header-hero-section {
-  background-color: #261721;
-  color: #FFF6F8;
+/***************
+  Header
+****************/
+
+.header-section {
   display: flex;
   justify-content: center;
+  background-color: #261721;
 }
 
 .header {
@@ -33,6 +37,7 @@ body {
 .logo {
   font-size: 24px;
   font-weight: bold;
+  color: #FFF6F8;
 }
 
 ul {
@@ -43,17 +48,28 @@ ul {
   gap: 20px;
 }
 
-a {
+.header a {
   text-decoration: none;
-  color: #E5E7EB;
   font-size: 18px;
+  color: #FFE3ED;
 }
 
 p {
   margin: 0;
 }
 
+/***************
+  Hero Section
+****************/
+
 .hero-section {
+  background-color: #190413;
+  color: #FFF6F8;
+  display: flex;
+  justify-content: center;
+}
+
+.hero-content {
   display: flex;
   padding: 100px 0;
   gap: 50px;
