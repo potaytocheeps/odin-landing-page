@@ -89,6 +89,12 @@ button {
   font-weight: bold;
   font-size: 18px;
   margin-top: 16px;
+  cursor: pointer;
+  box-shadow: 3px 3px #8B394B;
+}
+
+button:hover {
+  background-color: #D64F6D;
 }
 
 .right-hero-content {
@@ -203,13 +209,13 @@ h3 {
   background-color: #FA5C7E;
   flex: 1;
   border-radius: 8px;
-  padding: 50px 120px;
+  padding: 50px 80px;
   color: #F9FAF8;
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin: 50px;
-  gap: 50px;
+  gap: 80px;
 }
 
 .cta-title {
@@ -231,8 +237,13 @@ h3 {
 }
 
 .cta-button {
-  border: #F9FAF8 2px solid;
+  border: #D64F6D 2px outset;
   margin: 0;
+  padding: 10px 40px;
+}
+
+span {
+  font-size: 12px;
 }
 
 /*********
