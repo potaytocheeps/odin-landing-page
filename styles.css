@@ -17,6 +17,10 @@ body {
   flex: auto;
 }
 
+a {
+  text-decoration: none;
+}
+
 /***************
   Header
 ****************/
@@ -49,7 +53,6 @@ ul {
 }
 
 .header a {
-  text-decoration: none;
   font-size: 18px;
   color: #FFE3ED;
 }
@@ -142,7 +145,7 @@ button:hover {
   margin: 0;
 }
 
-h3 {
+h3 a {
   color: #FA5C7E;
   font-size: 20px;
   margin-bottom: 12px;
