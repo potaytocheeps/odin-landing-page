@@ -57,7 +57,7 @@ p {
 .hero-section {
   display: flex;
   padding: 100px 0;
-  gap: 10px;
+  gap: 50px;
 }
 
 .left-hero-content {
@@ -122,11 +122,17 @@ button {
 .card-image {
   border: #3882F6 3px solid;
   border-radius: 16px;
-  height: 160px;
+  width: 100%;
+  height: auto;
+  flex: 1 1 auto;
 }
 
 .information-card {
-  width: 160px;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  align-items: center;
 }
 
 .card-text {
